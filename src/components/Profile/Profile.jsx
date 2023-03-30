@@ -3,7 +3,7 @@ import { Section } from "./Styled-Profile";
 import { useNavigate } from "react-router-dom";
 
 export default function Profile() {
-  let [inp, setInp] = React.useState("9598210693");
+  let [inp, setInp] = React.useState();
   let navigate = useNavigate();
   const submitForm = (e) => {
     let a = Math.round(Math.random() * 1000 + 123456);
